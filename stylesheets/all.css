@@ -54,14 +54,20 @@ hr {
   width: 250px;
 }
 
-.btn {
+#userBtn,
+#imageBtn,
+#calendarBtn {
   background-color: rgb(45, 45, 69);
   border: 1px solid rgb(45, 45, 69);
   color: rgba(255, 255, 255);
-  &.active {
-    background-color: rgba(255, 255, 255);
-    border: 1px solid rgb(45, 45, 69);
-  }
+}
+
+#userBtn.active,
+#imageBtn.active,
+#calendarBtn.active {
+  background-color: rgba(255, 255, 255);
+  border: 1px solid rgb(45, 45, 69);
+  color: rgb(45, 45, 69);
 }
 
 .prev-month,
